@@ -3,13 +3,65 @@
 <head>
 	<% include partials/links.ejs %>
 	<% include partials/scripts.ejs %>
+	<link rel="stylesheet" type="text/css" href="stylesheets/about.css">
 </head>
 <body>
 	<% include partials/header.ejs %>
 
-	<div>
-		About Page
+	<div class='text-spacing welcome-mat'>
+		<h1>What we do</h1>
+		<h3>Motorcycles brandtenders always serve up something distinct. We mix a potent combination of digital strategy with a generous splash of creative juices and blend in technology-focused, customized solutions as a chaser.</h3>
 	</div>
+
+	<div>
+		<div class='four-pic-container'>
+			<div>
+				<h4>Branding</h4>
+			</div>
+			<div>
+				<h4>Branding</h4>
+			</div>
+			<div>
+				<h4>Branding</h4>
+			</div>
+			<div>
+				<h4>Branding</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class='our-culture'>
+		<div class='text-spacing'>
+			<h1>Our Culture</h1>
+			<h3>Our engineers are creative, tech savvy, and have a whole lot of passion</h3>
+		</div>
+		<!-- image container -->
+		<div class='img-container'>
+			<div class='img-row'>
+				<div class='bg-port'></div>
+				<div class='bg-land'></div>
+			</div>
+			<div class='img-row'>
+				<div class='bg-land'></div> <!-- big one -->
+				<div class='img-box'>
+					<div>
+						<div>
+							<h4>Step into our world and you’ll never step out.</h4>
+							<h4>Lets make something great together!</h4>
+						</div>
+					</div>
+					<div class='bg-land'></div>
+					<div class='bg-port'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class='text-spacing shop-section'>
+		<h1>Shops</h1>
+		<h3>Come visit us in LES New York, East Los Angeles, or the suburbs of Boston.</h3>
+	</div>
+
 	
 	<% include partials/footer.ejs %>
 </body>
