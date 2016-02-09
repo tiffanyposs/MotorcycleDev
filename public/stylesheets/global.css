@@ -1,0 +1,156 @@
+*{
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+html, body{
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+header nav{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+header nav.shownav{
+	background-color: #FF6A6A;
+}
+
+header nav img{
+	padding: 20px;
+	height: 150px;
+}
+
+header nav > ul{
+	position: absolute;
+	right: 60px;
+	top: 20px;
+}
+
+header nav li{
+	float: left;
+	list-style: none;
+	padding: 20px;
+	font-size: 1.15em;
+	font-weight: 500;
+}
+
+h1{
+	font-size: 12em;
+	text-transform: uppercase;
+	margin: 10px;
+	padding-bottom: 0;
+	line-height: 150px;
+	font-weight: 900;
+}
+
+h3{
+	font-size: 1.75em;
+	padding: 0 70px;
+	font-weight: 300;
+}
+
+/*footer styling*/
+footer .container{
+	width: 100%;
+	background-color: #3D3D3D;
+	padding: 40px 0;
+}
+
+footer .container nav{
+	text-align: center;
+}
+
+footer .container ul{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+footer li{
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+}
+
+footer li > a{
+	color: grey;
+}
+
+footer .request{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.newsletter{
+	text-align: center;
+}
+
+.newsletter h2{
+	font-size: 5em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.newsletter p{
+	font-size: 2em;
+	margin-bottom: 30px;
+	color: grey;
+}
+
+.newsletter form{
+	/*text-align: center;*/
+	/*width: 70%;*/
+	margin: 0 auto;
+	/*overflow: auto;*/
+}
+
+.newsletter form > input{
+	width: 300px;
+	background-color: transparent;
+	color: white;
+	padding: 10px;
+	border: 1px solid white;
+	margin: 0 5px 30px 5px;
+}
+
+.newsletter > div > input{
+	width: 615px;
+	padding: 10px;
+	background-color: #FF6A6A;
+	border: none;
+	margin-bottom: 50px;
+	font-weight: 700;
+	color: #3D3D3D;
+}
+
+
+.social-media .images{
+	text-align: center;
+	padding: 30px 0;
+	margin-bottom: 40px;
+}
+
+.social-media .images > a{
+	padding: 10px;
+	/*width: 100px;*/
+}
+
+.social-media .images img{
+	width: 60px;
+}
+
+
+.copyright{
+	text-align: center;
+	margin-bottom: 60px;
+}

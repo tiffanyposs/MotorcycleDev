@@ -1,20 +1,6 @@
-*{
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-}
-
 html, body{
 	width: 100%;
 	height: 100%;
-	font-family: 'Raleway', sans-serif;
-}
-
-a{
-	color: rgb(0,0,0);
-	text-decoration: none;
 }
 
 header{
@@ -22,69 +8,19 @@ header{
 }
 
 
-
-header nav{
-	width: 100%;
-	position: fixed;
-	z-index: 1000;
-	/*height: 120px;*/
-}
-
-header nav.shownav{
-	background-color: #FF6A6A;
-}
-
-header nav img{
-	/*width: 125px;*/
-	padding: 20px;
-	height: 150px;
-}
-
-header nav > ul{
-	position: absolute;
-	right: 60px;
-	top: 20px;
-}
-
-header nav li{
-	float: left;
-	list-style: none;
-	padding: 20px;
-	font-size: 1.15em;
-	font-weight: 500;
-}
-
 .bg-image{
   width: 100%;
   height: 100%;
-  /*background: url(../images/header.jpg) no-repeat center center;*/
   background: url(../images/parts.jpg) no-repeat center center;
   background-size: cover;
   position: absolute;
 }
-
 
 .container .header{
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 100px;
 }
-
-h1{
-	font-size: 12em;
-	text-transform: uppercase;
-	margin: 10px;
-	padding-bottom: 0;
-	line-height: 150px;
-	font-weight: 900;
-}
-
-h3{
-	font-size: 1.75em;
-	padding: 0 70px;
-	font-weight: 300;
-}
-
 
 .project-section{
 	margin-bottom: 25px;
@@ -94,7 +30,6 @@ h3{
 	overflow: auto;
 	margin-bottom: 50px;
 }
-
 
 .project-images > div{
 	width: 50%;
@@ -107,7 +42,6 @@ h3{
 	width: 85%;
 }
 
-
 .more-projects{
     text-align: center;
 }
@@ -116,13 +50,6 @@ h3{
     font-size: 1.5em;
     padding: 10px 20px;
     border: 5px solid rgb(0,0,0);
-}
-
-
-.approach-section{
-	/*height: 1100px;*/
-	/*margin-bottom: 50px;*/
-	/*background-color: red;*/
 }
 
 .approach-images{
@@ -141,7 +68,6 @@ h3{
 	text-transform: uppercase;
 }
 
-
 .approach-images > .image:nth-child(2){
 	left: 33.33%;
 }
@@ -150,15 +76,10 @@ h3{
 	left: 66.66%;
 }
 
-
-
-
 .approach-images .image > div:nth-child(2){
 	width: 100%;
 	position: absolute;
 	background-color: rgba(225, 225, 225, 0.7);
-
-	/*z-index: 1000;*/
 }
 
 .approach-images .image > div:nth-child(3){
@@ -187,7 +108,7 @@ h3{
 
 }
 
-
+/*client*/
 .client-section{
 	text-align: center;
 	height: 600px;
@@ -214,7 +135,7 @@ h3{
 
 
 
-
+/*philosophy*/
 .philosophy-section .header{
 	width: 100%;
 	background-color: #FF6A6A;
@@ -238,99 +159,3 @@ h3{
   font-weight: 200;
 }
 
-
-
-footer .container{
-	width: 100%;
-	background-color: #3D3D3D;
-	padding: 40px 0;
-}
-
-footer .container nav{
-	text-align: center;
-}
-
-footer .container ul{
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-footer li{
-	display: inline-block;
-	list-style: none;
-	padding: 20px;
-}
-
-footer li > a{
-	color: grey;
-}
-
-footer .request{
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-.newsletter{
-	text-align: center;
-}
-
-.newsletter h2{
-	font-size: 5em;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-	color: white;
-}
-
-.newsletter p{
-	font-size: 2em;
-	margin-bottom: 30px;
-	color: grey;
-}
-
-.newsletter form{
-	/*text-align: center;*/
-	/*width: 70%;*/
-	margin: 0 auto;
-	/*overflow: auto;*/
-}
-
-.newsletter form > input{
-	width: 300px;
-	background-color: transparent;
-	color: white;
-	padding: 10px;
-	border: 1px solid white;
-	margin: 0 5px 30px 5px;
-}
-
-.newsletter > div > input{
-	width: 615px;
-	padding: 10px;
-	background-color: #FF6A6A;
-	border: none;
-	margin-bottom: 50px;
-	font-weight: 700;
-	color: #3D3D3D;
-}
-
-
-.social-media .images{
-	text-align: center;
-	padding: 30px 0;
-	margin-bottom: 40px;
-}
-
-.social-media .images > a{
-	padding: 10px;
-	/*width: 100px;*/
-}
-
-.social-media .images img{
-	width: 60px;
-}
-
-
-.copyright{
-	text-align: center;
-	margin-bottom: 60px;
-}
