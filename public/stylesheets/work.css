@@ -1,0 +1,46 @@
+.header{
+	text-align: center;
+	width: 100%;
+	/*height: 600px;*/
+	padding: 170px 0px 100px 0;
+}
+
+.header h1{
+	margin-bottom: 40px;
+}
+
+.header h3{
+	padding: 0px 100px;
+	color: #FF6A6A;
+}
+
+.image-container{
+	width: 100%;
+}
+
+.image-container .row{
+	width: 100%;
+}
+
+.image-container .row img{
+	height: 481px;
+}
+
+.row > div{
+	display: inline-block;
+	margin-left: -4px;
+	/*float: left;*/
+}
+
+.row > div:last-child{
+	/*clear: left;*/
+}
+
+
+.two-thirds{
+	width: 66.66%;
+}
+
+.third{
+	width: 33.33%;
+}
