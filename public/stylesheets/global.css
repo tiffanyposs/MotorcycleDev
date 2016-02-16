@@ -59,6 +59,13 @@ h3{
 	font-weight: 300;
 }
 
+/*button*/
+.btn-view{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: 5px solid rgb(0,0,0);
+}
+
 /*footer styling*/
 footer .container{
 	width: 100%;
