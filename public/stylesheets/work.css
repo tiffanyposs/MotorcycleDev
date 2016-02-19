@@ -16,31 +16,48 @@
 
 .image-container{
 	width: 100%;
+	margin-bottom: -4px;
 }
 
-.image-container .row{
+.row{
 	width: 100%;
-}
-
-.image-container .row img{
-	height: 481px;
 }
 
 .row > div{
 	display: inline-block;
+}
+
+.one-third{
+	width: 33.33%;
 	margin-left: -4px;
-	/*float: left;*/
+	margin-top: -4px;
+	display: inline-block;
 }
-
-.row > div:last-child{
-	/*clear: left;*/
-}
-
 
 .two-thirds{
 	width: 66.66%;
+	margin-left: -4px;
+	margin-top: -4px;
+	display: inline-block;
 }
 
-.third{
-	width: 33.33%;
+.one-third > img, .two-thirds > img{
+	width: 100%;
+} 
+
+.square{
+	width: 66.66%;
+	margin-right: -4px;
+}
+
+.float{
+	float: left;
+}
+
+.square .one-third{
+	width: 50%;
+}
+
+.square .two-thirds{
+	width: 100%;
 }
