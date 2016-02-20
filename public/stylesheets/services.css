@@ -99,6 +99,10 @@
 	color: #838181;
 }
 
+.tiles{
+	margin-bottom: 70px;
+}
+
 .tiles .row{
 	width: 100%;
 	height: 550px;
@@ -157,5 +161,22 @@
 
 .tile li{
 	list-style: initial;
-	margin: 0px 40px 20px 40px;	
+	margin: 0px 20px 20px 20px;	
+}
+
+.contact-us{
+	padding: 70px 60px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: #FF6A6A;
+}
+
+.contact-us h2{
+	font-size: 60px;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px lightgrey;
+}
+
+.contact-us h3{
+	font-size: 45px;
 }

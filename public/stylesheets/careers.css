@@ -1,0 +1,81 @@
+/*#FF6A6A pink*/
+/*#838181 grey*/
+
+.career-header{
+	text-align: center;
+	padding: 100px 50px 60px 50px;
+}
+
+.career-header h2{
+	font-size: 100px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.career-header h3{
+	color: #838181;
+	font-size: 40px;
+}
+
+.location .row{
+	width: 100%;
+	height: 600px;
+}
+
+.location .row .img-bg{
+	width: 33.33%;
+	height: 100%;
+	margin-left: -4px;
+	text-align: center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: auto 100%;
+}
+
+.location .row .img-bg:first-child{
+	background-image: url('../images/about/cities/boston.jpg');
+}
+.location .row .img-bg:nth-child(2){
+	background-image: url('../images/about/cities/los-angeles.jpg');
+}
+.location .row .img-bg:nth-child(3){
+	background-image: url('../images/about/cities/new-york.jpg')
+}
+
+.location h4{
+	color: rgb(255, 255, 255);
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 300px 20px;
+}
+
+.jobs{
+	padding: 50px 0px;
+}
+
+.jobs h2{
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+	color: #838181;
+	margin-bottom: 30px;
+}
+
+.jobs .job-container > div{
+	width: 33.33%;
+	margin-left: -4px;
+	display: inline-block;
+	text-align: center;
+}
+
+.jobs .job-container a{
+	margin: 20px 0px;
+	display: block;
+	text-decoration: underline;
+	color: #FF6A6A;
+	font-weight: 400;
+	font-size: 25px;
+	cursor: pointer;
+}
