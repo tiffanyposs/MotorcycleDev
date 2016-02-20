@@ -59,6 +59,12 @@ h3{
 	font-weight: 300;
 }
 
+.arrow{
+	color: #838181;
+	text-align: center;
+	padding: 30px 0;
+}
+
 /*button*/
 .btn-view{
     font-size: 1.5em;
@@ -155,7 +161,6 @@ footer .request{
 .social-media .images img{
 	width: 60px;
 }
-
 
 .copyright{
 	text-align: center;
