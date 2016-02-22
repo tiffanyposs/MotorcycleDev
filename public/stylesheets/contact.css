@@ -1,0 +1,45 @@
+/*#FF6A6A pink*/
+/*#838181 grey*/
+
+.img-container{
+	width: 100%;
+}
+
+.img-container img{
+	width: 100%;
+	position: relative;
+}
+
+.info{
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	width: 500px;
+	height: 300px;
+	top: -150px;
+	left: 80px;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.main-img .info h4{
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main-img .info p{
+	font-size: 23px;
+	color: #838181;
+	line-height: 32px;
+}
+
+.main-img .info p span{
+	color: #FF6A6A;
+}
+
+.info .icon{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	color: #FF6A6A;
+}
