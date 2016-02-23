@@ -1,5 +1,8 @@
 /*#FF6A6A pink*/
 /*#838181 grey*/
+.header{
+	padding-bottom: 50px;
+}
 
 .img-container{
 	width: 100%;
@@ -17,8 +20,11 @@
 	height: 300px;
 	top: -150px;
 	left: 80px;
-	border: 2px solid black;
 	padding: 20px;
+}
+
+.main-img{
+	height: 1250px;
 }
 
 .main-img .info h4{
@@ -42,4 +48,50 @@
 	right: 25px;
 	top: 25px;
 	color: #FF6A6A;
+}
+
+.container{
+	width: 100%;
+}
+
+.container .city-nav{
+	margin-bottom: 50px;
+}
+
+.city-nav{
+	width: 100%;
+	border-top: 1px solid black;
+	text-align: right;
+}
+
+.city-nav ul{
+	position: relative;
+	right: 0;
+	margin-right: 50px;
+}
+
+.city-nav li{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 40px;
+	font-size: 30px;
+}
+
+.help-you{
+	background-color: #FF6A6A;
+	color: white;
+	text-align: center;
+	padding: 120px;
+}
+
+.help-you h3{
+	font-size: 80px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px grey;
+}
+
+.help-you h4{
+	font-size: 40px;
+	font-weight: 400;
 }
