@@ -36,7 +36,7 @@ app.use(express.static('public'));
 
 
 
-app.listen(8080)
+app.listen(80)
 
 console.log("I love motorcycles on port 8081")
 
